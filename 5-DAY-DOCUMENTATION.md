@@ -15,6 +15,7 @@
 ---
 
 ## Day 1: Foundation, Brand Identity, Core Engines & Setup
+*Detailed Day 1 Guide: [docs/day-1.md](docs/day-1.md)*
 
 ### Overview
 Day 1 establishes the bedrock of **CASEFILE 09**: a production-grade React 19 + TypeScript 5.7 + Vite 6 web application configured with a bespoke neo-noir classified visual language, a 100% self-contained Web Audio API sound synthesizer, persistent game state storage, and the opening onboarding sequence.
@@ -39,16 +40,17 @@ Day 1 establishes the bedrock of **CASEFILE 09**: a production-grade React 19 + 
 ---
 
 ## Day 2: Case Architecture, Narrative Dossiers & Archives
+*Detailed Day 2 Guide: [docs/day-2.md](docs/day-2.md)*
 
 ### Overview
 Day 2 delivers the fictional investigative world of **CASEFILE 09**, authoring five distinct criminal cases with deep lore, authentic forensic reports, suspect alibis, and branching narrative outcomes.
 
-### Authored Investigations
-1. **CASE 001: The Silent Witness** (Elena Vance homicide in locked Apt 4B; Marcus Sterling kickback conspiracy).
-2. **CASE 002: Midnight at Blackwood** (Lord Alistair disappearance during nor'easter; Julian Blackwood disinheritance).
-3. **CASE 003: The Last Transmission** (Jonas Miller signal tower vanishing; Officer Frank Navarro naval salvage coverup).
-4. **CASE 004: Ashes of Yesterday** (Samuel Vance 1988 cold case elevator vault entombment; Raymond Cross land fraud).
-5. **CASE 009: The Ninth File** (**Master Conspiracy Case**; *Project Chimera* linking all cases to Executive Director Vance Sterling).
+### Authored Investigations (Case Dossiers)
+1. **[CASE 001: The Silent Witness](docs/cases/case-001.md)**: Elena Vance homicide in locked Apt 4B; Marcus Sterling kickback conspiracy.
+2. **[CASE 002: Midnight at Blackwood](docs/cases/case-002.md)**: Lord Alistair disappearance during nor'easter; Julian Blackwood disinheritance.
+3. **[CASE 003: The Last Transmission](docs/cases/case-003.md)**: Jonas Miller signal tower vanishing; Officer Frank Navarro naval salvage coverup.
+4. **[CASE 004: Ashes of Yesterday](docs/cases/case-004.md)**: Samuel Vance 1988 cold case elevator vault entombment; Raymond Cross land fraud.
+5. **[CASE 009: The Ninth File](docs/cases/case-009.md)**: **Master Conspiracy Case**; *Project Chimera* linking all cases to Executive Director Vance Sterling.
 
 ### Key Systems Built
 - **Evidence Taxonomy**: Categorization supporting Photographs, Documents, DNA, Ballistics, Toxicology, Fingerprints, Audio Transcripts, and Maps.
@@ -58,6 +60,7 @@ Day 2 delivers the fictional investigative world of **CASEFILE 09**, authoring f
 ---
 
 ## Day 3: Physical Evidence Board & Tactical Canvas
+*Detailed Day 3 Guide: [docs/day-3.md](docs/day-3.md)*
 
 ### Overview
 Day 3 implements the heart of the detective experience: a tactile physical evidence board built on an infinite, hardware-accelerated canvas using `@xyflow/react`.
@@ -72,17 +75,13 @@ Day 3 implements the heart of the detective experience: a tactile physical evide
   - `NoteNode.tsx`: Yellow sticky note with red pushpin graphic and inline editing.
   - `VictimNode.tsx`: Incident epicenter card at center top.
 - **Yarn Connection Mechanics** (`src/components/investigation/edges/InvestigationEdge.tsx`):
-  - Red string yarn paths with semantic relationship badges:
-    - `Supports` (Green border badge)
-    - `Contradicts` (Red border badge)
-    - `Establishes Timeline` (Amber border badge)
-    - `Possible Motive` (Purple border badge)
-    - `Related To` (Neutral border badge)
+  - Red string yarn paths with semantic relationship badges: `Supports`, `Contradicts`, `Establishes Timeline`, `Possible Motive`, `Related To`.
   - Audio string pluck feedback and quick-delete controls.
 
 ---
 
 ## Day 4: Criminalistics Laboratory & Interrogation Chamber
+*Detailed Day 4 Guide: [docs/day-4.md](docs/day-4.md)*
 
 ### Overview
 Day 4 introduces deep forensic laboratory examination tools and a cinematic suspect interrogation chamber with deterministic branching dialogue.
@@ -90,7 +89,7 @@ Day 4 introduces deep forensic laboratory examination tools and a cinematic susp
 ### Key Systems Built
 - **Multi-Spectral Photo Examination Lab** (`src/components/laboratory/PhotoLab.tsx`):
   - Optical zoom (70%–250%) and 90° rotation.
-  - Multi-spectral filters: Standard, UV Fluorescence (starch binders), Infrared (heat/burn traces), and Optical Magnifier (micro-scratches and serial marks).
+  - Multi-spectral filters: Standard, UV Fluorescence, Infrared, and Optical Magnifier.
   - Clickable interactive hotspots revealing concealed physical clues.
 - **Optical Document Decryptor** (`src/components/laboratory/DocumentLab.tsx`):
   - Typewriter typography on scanned parchment.
@@ -110,6 +109,7 @@ Day 4 introduces deep forensic laboratory examination tools and a cinematic susp
 ---
 
 ## Day 5: Chronological Timeline, Deduction Engine & Launch
+*Detailed Day 5 Guide: [docs/day-5.md](docs/day-5.md)*
 
 ### Overview
 Day 5 completes the investigative loop: chronological timeline reconstruction, deterministic deduction theory builder, formal indictment submission, After-Action Reporting, scoring, and automated verification.
