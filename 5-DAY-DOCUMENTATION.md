@@ -60,7 +60,7 @@ Day 2 delivers the fictional investigative world of **CASEFILE 09**, authoring f
 ---
 
 ## Day 3: Physical Evidence Board & Tactical Canvas
-*Detailed Day 3 Guide: [docs/day-3.md](docs/day-3.md)*
+*Detailed Day 3 Guide: [docs/day-3.md](docs/day-3.md) | [Architecture Spec](docs/evidence-board-architecture.md)*
 
 ### Overview
 Day 3 implements the heart of the detective experience: a tactile physical evidence board built on an infinite, hardware-accelerated canvas using `@xyflow/react`.
